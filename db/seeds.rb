@@ -1,4 +1,3 @@
-require 'faker'
-
-Faker::Name.name      #=> "Christophe Bartell"
-
+10.times do
+  puts Faker::Lorem.sentence
+end

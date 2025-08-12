@@ -1,0 +1,8 @@
+<h1>Index Page </h1>
+
+<ol>
+<% @articles.each do |article| %>
+ <li> <%= article.title %></li>
+    <%= article.content %>
+<% end %>
+</ol>
